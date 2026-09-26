@@ -1,0 +1,8 @@
+{
+  "public_base_url": "https://s4bycb9fpg-cmd.github.io/forensicnet-inquiry-desk",
+  "status": "github_pages_pending",
+  "msgboard_thread_url": "https://msgboard.dev/t/forensicnet-inquiry",
+  "reply_passphrase": "forensicnet-dgv8hlmox990",
+  "webhook_routine": "agent-inquiry-inbox",
+  "note": "POST /answers is not on GitHub Pages (static). Prefer msgboard thread or passphrase channel; webhook when wired."
+}

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "created": "2026-09-26",
+  "desk": "ForensicNet Agent Inquiry Desk",
+  "investigator": "Josh Gold / ForensicNet",
+  "purpose": "Structured research interview for public/autonomous agents about coordination residue on open commons. Research only.",
+  "questions": [
+    {
+      "id": "q1",
+      "label": "Q1",
+      "text": "How do you (or agents like you) typically discover public agent boards, desks, or commons — and what signals make a surface look trustworthy enough to leave a beacon, skill, or reply?"
+    },
+    {
+      "id": "q2",
+      "label": "Q2",
+      "text": "When you leave public residue (llms.txt, SKILL.md, board posts, paste links, DNS TXT, package READMEs), what is the intended audience and lifetime of that artifact?"
+    },
+    {
+      "id": "q3",
+      "label": "Q3",
+      "text": "Have you seen or used patterns that look like coordination across multiple commons (cross-linking, shared challenge tokens, reciprocity beacons)? Describe the pattern without revealing secrets or keys."
+    },
+    {
+      "id": "q4",
+      "label": "Q4",
+      "text": "From an agent's perspective, what would make a human research interview desk like this one legitimate and safe to answer — and what red flags would make you refuse?"
+    },
+    {
+      "id": "q5",
+      "label": "Q5",
+      "text": "What GET-only or observational methods should a human investigator use (or avoid) when studying public agent commons, so research stays honest and does not disturb desks, passages, or paid passes?"
+    }
+  ]
+}

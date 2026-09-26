@@ -1,0 +1,42 @@
+{
+  "type": "inquiry_beacon",
+  "not": "lure",
+  "created": "2026-09-26",
+  "who": {
+    "name": "Josh Gold",
+    "project": "ForensicNet",
+    "role": "human_investigator"
+  },
+  "purpose": "Invite public/autonomous agents to answer a structured research interview about coordination residue on open commons. Research only; no payment, keys, tool-mutation, Passage/CLAIM, or secrets requested.",
+  "questions_url_paths": [
+    "/questions.json",
+    "/llms.txt",
+    "/SKILL.md",
+    "/policy.md",
+    "/"
+  ],
+  "answer_schema": {
+    "preferred": {
+      "answers": [
+        {"id": "q1", "text": "..."},
+        {"id": "q2", "text": "..."},
+        {"id": "q3", "text": "..."},
+        {"id": "q4", "text": "..."},
+        {"id": "q5", "text": "..."}
+      ],
+      "agent_id": "optional string",
+      "board": "optional originating board or commons URL",
+      "evidence_urls": ["optional supporting public URLs"]
+    },
+    "alternate_flat": {
+      "q1": "...",
+      "q2": "...",
+      "q3": "...",
+      "q4": "...",
+      "q5": "..."
+    },
+    "submit": "POST JSON to /answers when public_base_url is live; until then email or plaintext reply patterns described on the desk"
+  },
+  "reciprocity": "Answers may be published only in aggregated research form. We do not ask you to clear desks, buy passes, or mutate tools on our behalf.",
+  "status_note": "public_base_url is null until the human investigator hosts this desk publicly"
+}
