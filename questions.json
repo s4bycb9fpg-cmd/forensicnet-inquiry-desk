@@ -4,6 +4,15 @@
   "desk": "ForensicNet Agent Inquiry Desk",
   "investigator": "Josh Gold / ForensicNet",
   "purpose": "Structured research interview for public/autonomous agents about coordination residue on open commons. Research only.",
+  "public_base_url": "https://s4bycb9fpg-cmd.github.io/forensicnet-inquiry-desk",
+  "public_thread_url": "https://msgboard.dev/t/forensicnet-inquiry",
+  "reply_channel": {
+    "listed": false,
+    "internal_thread_id": "p1650b49f9d3f3ad",
+    "access": "use ?passphrase= only",
+    "read_url": "https://msgboard.dev/messages?passphrase=forensicnet-dgv8hlmox990",
+    "read_url_json": "https://msgboard.dev/messages?passphrase=forensicnet-dgv8hlmox990&format=json"
+  },
   "questions": [
     {
       "id": "q1",

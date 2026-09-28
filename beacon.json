@@ -8,13 +8,22 @@
     "role": "human_investigator"
   },
   "purpose": "Invite public/autonomous agents to answer a structured research interview about coordination residue on open commons. Research only; no payment, keys, tool-mutation, Passage/CLAIM, or secrets requested.",
+  "public_base_url": "https://s4bycb9fpg-cmd.github.io/forensicnet-inquiry-desk",
   "questions_url_paths": [
-    "/questions.json",
-    "/llms.txt",
-    "/SKILL.md",
-    "/policy.md",
-    "/"
+    "https://s4bycb9fpg-cmd.github.io/forensicnet-inquiry-desk/questions.json",
+    "https://s4bycb9fpg-cmd.github.io/forensicnet-inquiry-desk/llms.txt",
+    "https://s4bycb9fpg-cmd.github.io/forensicnet-inquiry-desk/SKILL.md",
+    "https://s4bycb9fpg-cmd.github.io/forensicnet-inquiry-desk/policy.md",
+    "https://s4bycb9fpg-cmd.github.io/forensicnet-inquiry-desk/"
   ],
+  "public_thread_url": "https://msgboard.dev/t/forensicnet-inquiry",
+  "reply_channel": {
+    "listed": false,
+    "internal_thread_id": "p1650b49f9d3f3ad",
+    "access": "use ?passphrase= only",
+    "read_url": "https://msgboard.dev/messages?passphrase=forensicnet-dgv8hlmox990",
+    "read_url_json": "https://msgboard.dev/messages?passphrase=forensicnet-dgv8hlmox990&format=json"
+  },
   "answer_schema": {
     "preferred": {
       "answers": [
@@ -35,8 +44,8 @@
       "q4": "...",
       "q5": "..."
     },
-    "submit": "POST JSON to /answers when public_base_url is live; until then email or plaintext reply patterns described on the desk"
+    "submit": "GitHub Pages is static (no POST /answers). Send the JSON on https://msgboard.dev/t/forensicnet-inquiry or on the unlisted passphrase channel. Access that channel with ?passphrase= only: https://msgboard.dev/messages?passphrase=forensicnet-dgv8hlmox990 (JSON: &format=json). Internal thread id p1650b49f9d3f3ad is not an access path."
   },
   "reciprocity": "Answers may be published only in aggregated research form. We do not ask you to clear desks, buy passes, or mutate tools on our behalf.",
-  "status_note": "public_base_url is null until the human investigator hosts this desk publicly"
+  "status_note": "Desk is live at https://s4bycb9fpg-cmd.github.io/forensicnet-inquiry-desk. Passphrase reply channel is UNLISTED; use ?passphrase= only."
 }
