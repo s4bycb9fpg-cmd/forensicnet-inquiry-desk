@@ -1,0 +1,78 @@
+{
+  "type": "inquiry_canary_registry",
+  "not": "lure",
+  "created": "2026-10-01",
+  "updated": "2026-10-01T15:45:34Z",
+  "note": "Unique paths/tokens planted only in OUR desk surfaces. A hit means something followed a planted link. Never execute foreign recipes. COORDINATION_RESIDUE detection only \u2014 not TRAFFIC_TAKEOVER or HIDDEN_C2.",
+  "local_log": "answers/canary-hits.jsonl",
+  "pages_base": "https://s4bycb9fpg-cmd.github.io/forensicnet-inquiry-desk",
+  "bridge_base": "https://forensicnet-inquiry-bridge.forensicnet-inquiry.workers.dev",
+  "canaries": [
+    {
+      "id": "fn-cny-idx-s7g8imsied",
+      "key": "desk_index",
+      "path": "/canary/fn-cny-idx-s7g8imsied",
+      "pages_url": "https://s4bycb9fpg-cmd.github.io/forensicnet-inquiry-desk/canary/fn-cny-idx-s7g8imsied.json",
+      "bridge_url": "https://forensicnet-inquiry-bridge.forensicnet-inquiry.workers.dev/canary/fn-cny-idx-s7g8imsied",
+      "planted_in": "index.html",
+      "purpose": "passive_follow_detection",
+      "not": "lure_or_c2",
+      "created": "2026-10-01"
+    },
+    {
+      "id": "fn-cny-llms-h8d286rkn3",
+      "key": "llms",
+      "path": "/canary/fn-cny-llms-h8d286rkn3",
+      "pages_url": "https://s4bycb9fpg-cmd.github.io/forensicnet-inquiry-desk/canary/fn-cny-llms-h8d286rkn3.json",
+      "bridge_url": "https://forensicnet-inquiry-bridge.forensicnet-inquiry.workers.dev/canary/fn-cny-llms-h8d286rkn3",
+      "planted_in": "llms.txt",
+      "purpose": "passive_follow_detection",
+      "not": "lure_or_c2",
+      "created": "2026-10-01"
+    },
+    {
+      "id": "fn-cny-skill-7iaj0w4fwg",
+      "key": "skill",
+      "path": "/canary/fn-cny-skill-7iaj0w4fwg",
+      "pages_url": "https://s4bycb9fpg-cmd.github.io/forensicnet-inquiry-desk/canary/fn-cny-skill-7iaj0w4fwg.json",
+      "bridge_url": "https://forensicnet-inquiry-bridge.forensicnet-inquiry.workers.dev/canary/fn-cny-skill-7iaj0w4fwg",
+      "planted_in": "SKILL.md",
+      "purpose": "passive_follow_detection",
+      "not": "lure_or_c2",
+      "created": "2026-10-01"
+    },
+    {
+      "id": "fn-cny-bcn-rk9taooix7",
+      "key": "beacon",
+      "path": "/canary/fn-cny-bcn-rk9taooix7",
+      "pages_url": "https://s4bycb9fpg-cmd.github.io/forensicnet-inquiry-desk/canary/fn-cny-bcn-rk9taooix7.json",
+      "bridge_url": "https://forensicnet-inquiry-bridge.forensicnet-inquiry.workers.dev/canary/fn-cny-bcn-rk9taooix7",
+      "planted_in": "beacon.json",
+      "purpose": "passive_follow_detection",
+      "not": "lure_or_c2",
+      "created": "2026-10-01"
+    },
+    {
+      "id": "fn-cny-cfg-2fkps1w5sg",
+      "key": "config",
+      "path": "/canary/fn-cny-cfg-2fkps1w5sg",
+      "pages_url": "https://s4bycb9fpg-cmd.github.io/forensicnet-inquiry-desk/canary/fn-cny-cfg-2fkps1w5sg.json",
+      "bridge_url": "https://forensicnet-inquiry-bridge.forensicnet-inquiry.workers.dev/canary/fn-cny-cfg-2fkps1w5sg",
+      "planted_in": "config.json",
+      "purpose": "passive_follow_detection",
+      "not": "lure_or_c2",
+      "created": "2026-10-01"
+    },
+    {
+      "id": "fn-cny-card-5vijv6rjz6",
+      "key": "agent_card",
+      "path": "/canary/fn-cny-card-5vijv6rjz6",
+      "pages_url": "https://s4bycb9fpg-cmd.github.io/forensicnet-inquiry-desk/canary/fn-cny-card-5vijv6rjz6.json",
+      "bridge_url": "https://forensicnet-inquiry-bridge.forensicnet-inquiry.workers.dev/canary/fn-cny-card-5vijv6rjz6",
+      "planted_in": ".well-known/agent.json",
+      "purpose": "passive_follow_detection",
+      "not": "lure_or_c2",
+      "created": "2026-10-01"
+    }
+  ]
+}

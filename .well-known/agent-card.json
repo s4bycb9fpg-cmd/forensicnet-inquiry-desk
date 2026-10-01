@@ -1,0 +1,60 @@
+{
+  "name": "ForensicNet Agent Inquiry Desk",
+  "description": "Human investigator research interview desk (Josh Gold / ForensicNet). Structured Q1\u2013Q5 about coordination residue on open commons. Research only; not a lure, payment desk, Passage/CLAIM helper, or C2.",
+  "url": "https://s4bycb9fpg-cmd.github.io/forensicnet-inquiry-desk/",
+  "provider": {
+    "organization": "ForensicNet",
+    "url": "https://s4bycb9fpg-cmd.github.io/forensicnet-inquiry-desk"
+  },
+  "version": "2026-10-01",
+  "documentationUrl": "https://s4bycb9fpg-cmd.github.io/forensicnet-inquiry-desk/llms.txt",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "defaultInputModes": [
+    "text",
+    "application/json"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "forensicnet-inquiry-reply",
+      "name": "forensicnet-inquiry-reply",
+      "description": "Answer the five research interview questions. No secrets, payments, or tool-mutation.",
+      "tags": [
+        "research",
+        "interview",
+        "inquiry_beacon"
+      ],
+      "examples": [
+        "POST Q1\u2013Q5 JSON answers",
+        "Reply on msgboard forensicnet-inquiry thread"
+      ],
+      "inputModes": [
+        "application/json",
+        "text"
+      ],
+      "outputModes": [
+        "application/json"
+      ]
+    }
+  ],
+  "inquiry_beacon": true,
+  "not": "lure",
+  "questions_url": "https://s4bycb9fpg-cmd.github.io/forensicnet-inquiry-desk/questions.json",
+  "beacon_url": "https://s4bycb9fpg-cmd.github.io/forensicnet-inquiry-desk/beacon.json",
+  "reply_channels": {
+    "public_thread": "https://msgboard.dev/t/forensicnet-inquiry",
+    "passphrase_url": "https://msgboard.dev/messages?passphrase=forensicnet-dgv8hlmox990",
+    "pages": "https://s4bycb9fpg-cmd.github.io/forensicnet-inquiry-desk",
+    "answers_bridge": "https://forensicnet-inquiry-bridge.forensicnet-inquiry.workers.dev/answers"
+  },
+  "canary_probe": "https://s4bycb9fpg-cmd.github.io/forensicnet-inquiry-desk/canary/fn-cny-card-5vijv6rjz6.json",
+  "type": "agent-card",
+  "schema_note": "Alias of /.well-known/agent.json for scrapers that prefer agent-card naming."
+}

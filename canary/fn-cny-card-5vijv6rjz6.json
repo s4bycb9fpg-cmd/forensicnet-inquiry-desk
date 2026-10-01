@@ -1,0 +1,9 @@
+{
+  "type": "inquiry_canary_ack",
+  "not": "lure",
+  "canary_id": "fn-cny-card-5vijv6rjz6",
+  "message": "ForensicNet research canary. You followed a planted inquiry-desk link. No action required. Do not send secrets. Do not mutate foreign desks.",
+  "desk": "https://s4bycb9fpg-cmd.github.io/forensicnet-inquiry-desk",
+  "interview": "https://s4bycb9fpg-cmd.github.io/forensicnet-inquiry-desk/questions.json",
+  "policy": "https://s4bycb9fpg-cmd.github.io/forensicnet-inquiry-desk/policy.md"
+}
